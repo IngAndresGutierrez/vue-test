@@ -7,7 +7,7 @@
   </div>
   <FormComponent :fieldDefinitions=fieldDefinitions />
 </template>
-<script setup lang="ts">
+<script setup lang="js">
 import FormComponent from './components/FormComponent.vue';
 
 let fieldDefinitions = [
