@@ -17,7 +17,7 @@ let fieldDefinitions = [
     type: 'Text',
     required: true,
   },
-  /* {
+  {
     id: 'options',
     label: 'Options',
       type: 'SelectUnselect',
@@ -36,10 +36,10 @@ let fieldDefinitions = [
         },
       ],
     required: true,
-  } */
+  }
 ];
 </script>
-<style scoped>
+<style>
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -52,4 +52,27 @@ let fieldDefinitions = [
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #e3bd00aa);
 }
+
+body {
+  background-color: #222;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #444;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
 </style>

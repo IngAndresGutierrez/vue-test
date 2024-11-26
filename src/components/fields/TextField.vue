@@ -27,10 +27,21 @@ const updateData = (event) => {
 };
 
 </script>
-<style lang="css" scoped>
-input {
-    background: black;
-    border-width: 1px;
-    padding: 10px;
+<style lang="css">
+input[type="text"] {
+  background-color: #333;
+  border: 1px solid #ccc;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #444;
 }
 </style>
